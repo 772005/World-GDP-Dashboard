@@ -19,7 +19,7 @@ st.set_page_config(
 def get_gdp_data():
     """Load and tidy World Bank GDP data."""
 
-    DATA_FILENAME = "C:\\Users\\Lenovo\\Desktop\\project\\GDP dashboard\\world_gdp.csv"
+    DATA_FILENAME = "world_gdp.csv"
 
     raw_gdp_df = pd.read_csv(DATA_FILENAME, skiprows=4, na_values=['..'])
     
